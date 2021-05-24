@@ -1,0 +1,373 @@
+{
+    "description": "",
+    "name": "02a.Validate_SQL",
+    "tableau-snapshot": {
+        "content": {
+            "filters": true,
+            "fullColumns": true,
+            "image": true,
+            "parameters": true,
+            "summaryColumns": true,
+            "summaryData": true,
+            "worksheets": true
+        },
+        "image": "resources/snapshot-EducatedCountries-Sheet1.png",
+        "name": "Sheet1",
+        "parameters": [],
+        "timestamp": 1621369826051,
+        "uniqueName": "EducatedCountries-Sheet1",
+        "url": "http://tableau-demo.360suite.io:9123/t/Presales/views/EducatedCountries/Sheet1",
+        "urlWithSelmerTokens": "{{TABLEAU_URL}}/t/{{TABLEAU_SITE}}/views/EducatedCountries/Sheet1",
+        "worksheets": [
+            {
+                "columns": {
+                    "summary": [
+                        {
+                            "dataType": "string",
+                            "index": 0,
+                            "name": "Country"
+                        },
+                        {
+                            "dataType": "string",
+                            "index": 1,
+                            "name": "Patent and Trade Mark Applications, total"
+                        },
+                        {
+                            "dataType": "string",
+                            "index": 2,
+                            "name": "Region"
+                        },
+                        {
+                            "dataType": "integer",
+                            "index": 3,
+                            "name": "CNT(Custom SQL Query)"
+                        }
+                    ],
+                    "underlying": [
+                        {
+                            "dataType": "string",
+                            "index": 0,
+                            "name": "Country"
+                        },
+                        {
+                            "dataType": "string",
+                            "index": 1,
+                            "name": "Patent and Trade Mark Applications, total"
+                        },
+                        {
+                            "dataType": "string",
+                            "index": 2,
+                            "name": "Region"
+                        }
+                    ]
+                },
+                "data": {
+                    "summary": [
+                        {
+                            "CNT(Custom SQL Query)": {
+                                "formattedValue": "1",
+                                "value": "1"
+                            },
+                            "Country": {
+                                "formattedValue": "New Zealand",
+                                "value": "New Zealand"
+                            },
+                            "Patent and Trade Mark Applications, total": {
+                                "formattedValue": "388978",
+                                "value": "388978"
+                            },
+                            "Region": {
+                                "formattedValue": "Oceania",
+                                "value": "Oceania"
+                            }
+                        },
+                        {
+                            "CNT(Custom SQL Query)": {
+                                "formattedValue": "1",
+                                "value": "1"
+                            },
+                            "Country": {
+                                "formattedValue": "Cuba",
+                                "value": "Cuba"
+                            },
+                            "Patent and Trade Mark Applications, total": {
+                                "formattedValue": "39802",
+                                "value": "39802"
+                            },
+                            "Region": {
+                                "formattedValue": "Latin America & the Caribbean",
+                                "value": "Latin America & the Caribbean"
+                            }
+                        },
+                        {
+                            "CNT(Custom SQL Query)": {
+                                "formattedValue": "1",
+                                "value": "1"
+                            },
+                            "Country": {
+                                "formattedValue": "United Kingdom",
+                                "value": "United Kingdom"
+                            },
+                            "Patent and Trade Mark Applications, total": {
+                                "formattedValue": "992198",
+                                "value": "992198"
+                            },
+                            "Region": {
+                                "formattedValue": "Europe",
+                                "value": "Europe"
+                            }
+                        },
+                        {
+                            "CNT(Custom SQL Query)": {
+                                "formattedValue": "1",
+                                "value": "1"
+                            },
+                            "Country": {
+                                "formattedValue": "Ukraine",
+                                "value": "Ukraine"
+                            },
+                            "Patent and Trade Mark Applications, total": {
+                                "formattedValue": "463837",
+                                "value": "463837"
+                            },
+                            "Region": {
+                                "formattedValue": "Europe",
+                                "value": "Europe"
+                            }
+                        },
+                        {
+                            "CNT(Custom SQL Query)": {
+                                "formattedValue": "1",
+                                "value": "1"
+                            },
+                            "Country": {
+                                "formattedValue": "Sweden",
+                                "value": "Sweden"
+                            },
+                            "Patent and Trade Mark Applications, total": {
+                                "formattedValue": "248647",
+                                "value": "248647"
+                            },
+                            "Region": {
+                                "formattedValue": "Europe",
+                                "value": "Europe"
+                            }
+                        },
+                        {
+                            "CNT(Custom SQL Query)": {
+                                "formattedValue": "1",
+                                "value": "1"
+                            },
+                            "Country": {
+                                "formattedValue": "Slovenia",
+                                "value": "Slovenia"
+                            },
+                            "Patent and Trade Mark Applications, total": {
+                                "formattedValue": "84737",
+                                "value": "84737"
+                            },
+                            "Region": {
+                                "formattedValue": "Europe",
+                                "value": "Europe"
+                            }
+                        },
+                        {
+                            "CNT(Custom SQL Query)": {
+                                "formattedValue": "1",
+                                "value": "1"
+                            },
+                            "Country": {
+                                "formattedValue": "Norway",
+                                "value": "Norway"
+                            },
+                            "Patent and Trade Mark Applications, total": {
+                                "formattedValue": "285835",
+                                "value": "285835"
+                            },
+                            "Region": {
+                                "formattedValue": "Europe",
+                                "value": "Europe"
+                            }
+                        },
+                        {
+                            "CNT(Custom SQL Query)": {
+                                "formattedValue": "1",
+                                "value": "1"
+                            },
+                            "Country": {
+                                "formattedValue": "Netherlands",
+                                "value": "Netherlands"
+                            },
+                            "Patent and Trade Mark Applications, total": {
+                                "formattedValue": "41173",
+                                "value": "41173"
+                            },
+                            "Region": {
+                                "formattedValue": "Europe",
+                                "value": "Europe"
+                            }
+                        },
+                        {
+                            "CNT(Custom SQL Query)": {
+                                "formattedValue": "1",
+                                "value": "1"
+                            },
+                            "Country": {
+                                "formattedValue": "Lithuania",
+                                "value": "Lithuania"
+                            },
+                            "Patent and Trade Mark Applications, total": {
+                                "formattedValue": "90090",
+                                "value": "90090"
+                            },
+                            "Region": {
+                                "formattedValue": "Europe",
+                                "value": "Europe"
+                            }
+                        },
+                        {
+                            "CNT(Custom SQL Query)": {
+                                "formattedValue": "1",
+                                "value": "1"
+                            },
+                            "Country": {
+                                "formattedValue": "Iceland",
+                                "value": "Iceland"
+                            },
+                            "Patent and Trade Mark Applications, total": {
+                                "formattedValue": "66548",
+                                "value": "66548"
+                            },
+                            "Region": {
+                                "formattedValue": "Europe",
+                                "value": "Europe"
+                            }
+                        },
+                        {
+                            "CNT(Custom SQL Query)": {
+                                "formattedValue": "1",
+                                "value": "1"
+                            },
+                            "Country": {
+                                "formattedValue": "Finland",
+                                "value": "Finland"
+                            },
+                            "Patent and Trade Mark Applications, total": {
+                                "formattedValue": "138310",
+                                "value": "138310"
+                            },
+                            "Region": {
+                                "formattedValue": "Europe",
+                                "value": "Europe"
+                            }
+                        },
+                        {
+                            "CNT(Custom SQL Query)": {
+                                "formattedValue": "1",
+                                "value": "1"
+                            },
+                            "Country": {
+                                "formattedValue": "Denmark",
+                                "value": "Denmark"
+                            },
+                            "Patent and Trade Mark Applications, total": {
+                                "formattedValue": "150420",
+                                "value": "150420"
+                            },
+                            "Region": {
+                                "formattedValue": "Europe",
+                                "value": "Europe"
+                            }
+                        },
+                        {
+                            "CNT(Custom SQL Query)": {
+                                "formattedValue": "1",
+                                "value": "1"
+                            },
+                            "Country": {
+                                "formattedValue": "Belgium",
+                                "value": "Belgium"
+                            },
+                            "Patent and Trade Mark Applications, total": {
+                                "formattedValue": "456992",
+                                "value": "456992"
+                            },
+                            "Region": {
+                                "formattedValue": "Europe",
+                                "value": "Europe"
+                            }
+                        },
+                        {
+                            "CNT(Custom SQL Query)": {
+                                "formattedValue": "1",
+                                "value": "1"
+                            },
+                            "Country": {
+                                "formattedValue": "Austria",
+                                "value": "Austria"
+                            },
+                            "Patent and Trade Mark Applications, total": {
+                                "formattedValue": "245039",
+                                "value": "245039"
+                            },
+                            "Region": {
+                                "formattedValue": "Europe",
+                                "value": "Europe"
+                            }
+                        }
+                    ]
+                },
+                "filters": [],
+                "name": "Educated Countries"
+            }
+        ]
+    },
+    "tasks": [
+        {
+            "disabled": false,
+            "name": "Login",
+            "password": "9h9oMJ05dVvJlifzl/v8;encrypted",
+            "site-id": "{{TABLEAU_SITE}}",
+            "type": "login_tableau",
+            "url": "{{TABLEAU_URL}}",
+            "user": "{{TABLEAU_USER}}"
+        },
+        {
+            "disabled": false,
+            "name": "Open Viz",
+            "type": "viz_open",
+            "url": "{{TABLEAU_URL}}/t/{{TABLEAU_SITE}}/views/EducatedCountries/Sheet1"
+        },
+        {
+            "columns": [
+                "Country",
+                "Region"
+            ],
+            "data-type": "SUMMARY",
+            "disabled": false,
+            "formatted-values": false,
+            "name": "Educated Countries",
+            "sql": "select Country, Region\nfrom worldbank_dev_indicators\ngroup by\ncountry,\nregion\nHAVING\nAVG(government_expenditure_on_education_pc_of_GDP) > 4\nAND AVG(gross_enrollment_ratio_terciary_both_sexes) > 50",
+            "tableau-export-csv": {
+                "delimiter": ",",
+                "encoding": "utf8",
+                "newline-char": "\n"
+            },
+            "target": "Educated Countries",
+            "target-db": {
+                "classname": "com.microsoft.jdbc.sqlserver.SQLServerDriver",
+                "jdbc-builder-dbname": "worldbank",
+                "jdbc-builder-dbtype": "mssql",
+                "jdbc-builder-host": "EC2AMAZ-2JHLRC5\\SQLEXPRESS",
+                "jdbc-builder-port": "1433",
+                "max-rows": 2000,
+                "password": "7lZlQbhGAF3Kph3r;encrypted",
+                "subname": "//EC2AMAZ-2JHLRC5\\SQLEXPRESS:1433;database=worldbank",
+                "subprotocol": "sqlserver",
+                "user": "sa"
+            },
+            "type": "assert_sql_equals"
+        }
+    ],
+    "type": "functional"
+}

@@ -1,0 +1,10 @@
+{
+    "context-variables": {
+        "TABLEAU_PROJECT": "Development",
+        "TABLEAU_PWD": "2hwREO44Q3g=;encrypted",
+        "TABLEAU_SITE": "Presales",
+        "TABLEAU_URL": "http://tableau-demo.360suite.io:9123",
+        "TABLEAU_USER": "pauline.lancaster",
+        "TABLEAU_VERSION": "2021.1"
+    }
+}

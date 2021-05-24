@@ -1,0 +1,8 @@
+{
+    "kinesisVersion": "2.2.0",
+    "name": "Functional_Tests",
+    "description": "",
+    "srcDir": "src",
+    "jobDir": "test",
+    "contextDir": "context"
+}

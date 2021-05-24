@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/kinesis.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="https://raw.githubusercontent.com/mohsen1/json-formatter-js/v1.1.0/dist/bundle.js" type="text/javascript"></script> <!-- json-formatter-js, distributed as bundle.js on github -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/x2js/1.2.0/xml2json.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js" type="text/javascript"></script>
+    <script src="https://raw.githubusercontent.com/i-like-robots/EasyZoom/master/dist/easyzoom.js" type="text/javascript"></script>
+    <!-- Init easyzoom -->
+    <script language="javascript">$(document).ready(function() { $('.easyzoom').easyZoom(); });</script>
+    <meta charset="UTF-8">
+    <base target="_blank">
+    <title></title>
+</head>
+<body>
+<div class="col-md-1"></div>
+<div class="col-md-10">
+    <table class="table table-borderless">
+        <tr>
+            <td class="col-md-3 text-center vert-align">
+                
+                    
+                        <h4><span class="label label-danger">&#10060; Failed</span></h4>
+                    
+                
+            </td>
+            <td class="col-md-6 text-center vert-align">
+                <h3>02a.Validate_SQL</h3>
+                <h5></h5>
+                <h5>2021-05-18 20:41:18</h5>
+            </td>
+            <td class="col-md-3 text-center vert-align"><img src="images/kinesis-logo.png"/></td>
+        </tr>
+    </table>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h3>Summary</h3>
+<table class="table table-striped">
+    <!--<caption>Summary</caption>-->
+    <thead>
+    <tr>
+        <!--<td>#</td>-->
+        <td>Task Name</td>
+        <td>Status</td>
+        <td>Time</td>
+    </tr>
+    </thead>
+    <!--For each task...-->
+    <!--Each task should contain an anchor link to the task config later down the page-->
+
+    <tbody>
+    
+    <tr>
+        <td><a href="#link-905853657">Login</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>7.942s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-1364461833">Open Viz</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>7.140s</td>
+    </tr>
+    
+    <tr>
+        <td><a href="#link-1709897521">Educated Countries</a></td>
+        
+            
+                <td>&#10060;</td>
+            
+        
+        <td>4.247s</td>
+    </tr>
+    
+    </tbody>
+</table>
+
+            <h3>Task Details</h3>
+    
+   <a name="link-905853657"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (1/3)</th>
+                <th>Login</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-905853657"></td>
+                <script type="text/javascript">
+                    var jsonData = {"disabled":false,"name":"Login","password":"********","site-id":"Presales","type":"login_tableau","url":"http:\/\/tableau-demo.360suite.io:9123","user":"pauline.lancaster"};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-905853657");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Login successful</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210518T204104.657Z.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-1364461833"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (2/3)</th>
+                <th>Open Viz</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-1364461833"></td>
+                <script type="text/javascript">
+                    var jsonData = {"disabled":false,"name":"Open Viz","type":"viz_open","url":"http:\/\/tableau-demo.360suite.io:9123\/t\/Presales\/views\/EducatedCountries\/Sheet1"};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-1364461833");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+            
+                <tr>
+                    <td>Result Message</td>
+                    <td><samp><p>Viz opened successfully</p></samp></td>
+                </tr>
+            
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210518T204111.372Z.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+   <a name="link-1709897521"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (3/3)</th>
+                <th>Educated Countries</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-1709897521"></td>
+                <script type="text/javascript">
+                    var jsonData = {"target-db":{"jdbc-builder-host":"EC2AMAZ-2JHLRC5\\SQLEXPRESS","jdbc-builder-dbname":"worldbank","password":"********","classname":"com.microsoft.jdbc.sqlserver.SQLServerDriver","subprotocol":"sqlserver","max-rows":2000,"jdbc-builder-dbtype":"mssql","jdbc-builder-port":"1433","user":"sa","subname":"\/\/EC2AMAZ-2JHLRC5\\SQLEXPRESS:1433;database=worldbank"},"data-type":"SUMMARY","disabled":false,"columns":["Country","Region"],"name":"Educated Countries","formatted-values":false,"type":"assert_sql_equals","sql":"select Country, Region\nfrom worldbank_dev_indicators","tableau-export-csv":{"delimiter":",","encoding":"utf8","newline-char":"\n"},"target":"Educated Countries"};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-1709897521");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+            
+            
+                
+
+    
+    <tr>
+        <td>Diff</td>
+        <td>
+            <table class="table code-data">
+                <tr>
+                    <td>
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <td><strong>Only in SQL Rows (Up to 20 rows)</strong></td>
+                            </tr>
+                            </thead>
+                            
+                            <tr>
+                                
+                                    <td><samp>Afghanistan</samp></td>
+                                
+                                    <td><samp>Middle East</samp></td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                
+                                    <td><samp>Albania</samp></td>
+                                
+                                    <td><samp>Europe</samp></td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                
+                                    <td><samp>Angola</samp></td>
+                                
+                                    <td><samp>Africa</samp></td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                
+                                    <td><samp>Argentina</samp></td>
+                                
+                                    <td><samp>Latin America &amp; the Caribbean</samp></td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                
+                                    <td><samp>Bangladesh</samp></td>
+                                
+                                    <td><samp>Asia</samp></td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                
+                                    <td><samp>Belarus</samp></td>
+                                
+                                    <td><samp>Europe</samp></td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                
+                                    <td><samp>Belize</samp></td>
+                                
+                                    <td><samp>Latin America &amp; the Caribbean</samp></td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                
+                                    <td><samp>Bosnia and Herzegovina</samp></td>
+                                
+                                    <td><samp>Europe</samp></td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                
+                                    <td><samp>Brazil</samp></td>
+                                
+                                    <td><samp>Latin America &amp; the Caribbean</samp></td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                
+                                    <td><samp>Cote d&#39;Ivoire</samp></td>
+                                
+                                    <td><samp>Africa</samp></td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                
+                                    <td><samp>Croatia</samp></td>
+                                
+                                    <td><samp>Europe</samp></td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                
+                                    <td><samp>Djibouti</samp></td>
+                                
+                                    <td><samp>Africa</samp></td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                
+                                    <td><samp>India</samp></td>
+                                
+                                    <td><samp>Asia</samp></td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                
+                                    <td><samp>Isle of Man</samp></td>
+                                
+                                    <td><samp>Europe</samp></td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                
+                                    <td><samp>Japan</samp></td>
+                                
+                                    <td><samp>Asia</samp></td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                
+                                    <td><samp>Korea, Dem. People��_s Rep.</samp></td>
+                                
+                                    <td><samp>Asia</samp></td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                
+                                    <td><samp>Lesotho</samp></td>
+                                
+                                    <td><samp>Africa</samp></td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                
+                                    <td><samp>Macedonia, FYR</samp></td>
+                                
+                                    <td><samp>Europe</samp></td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                
+                                    <td><samp>Maldives</samp></td>
+                                
+                                    <td><samp>Asia</samp></td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                
+                                    <td><samp>Marshall Islands</samp></td>
+                                
+                                    <td><samp>Oceania</samp></td>
+                                
+                            </tr>
+                            
+                        </table>
+                    </td>
+                    <td>
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <td><strong>Only in Tableau Rows (Up to 20 rows)</strong></td>
+                            </tr>
+                            </thead>
+                            
+                            <tr>
+                                
+                                    <td><samp>Netherlands</samp></td>
+                                
+                                    <td><samp>Europe</samp></td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                
+                                    <td><samp>New Zealand</samp></td>
+                                
+                                    <td><samp>Oceania</samp></td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                
+                                    <td><samp>Norway</samp></td>
+                                
+                                    <td><samp>Europe</samp></td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                
+                                    <td><samp>Slovenia</samp></td>
+                                
+                                    <td><samp>Europe</samp></td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                
+                                    <td><samp>Sweden</samp></td>
+                                
+                                    <td><samp>Europe</samp></td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                
+                                    <td><samp>Ukraine</samp></td>
+                                
+                                    <td><samp>Europe</samp></td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                
+                                    <td><samp>United Kingdom</samp></td>
+                                
+                                    <td><samp>Europe</samp></td>
+                                
+                            </tr>
+                            
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    
+
+            
+            
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210518T204116.040Z.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+
+        </div>
+    </div>
+</div>
+<div class="col-md-1"></div>
+</body>
+</html>

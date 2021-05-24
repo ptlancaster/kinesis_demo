@@ -1,0 +1,45 @@
+{
+    "description": "",
+    "name": "05.Performance_Test2",
+    "tasks": [
+        {
+            "SLA": {
+                "apdex-goal": 0.85,
+                "availability-goal": 99.5,
+                "excluded-samples": {
+                    "bootstrap-request-event": false,
+                    "clear-session-event": false,
+                    "create-session-event": false,
+                    "get-interactive-components-event": false,
+                    "get-view-event": false,
+                    "interact-randomly-event": false,
+                    "interaction-with-viz-event": false,
+                    "login-event": false,
+                    "opening-viz-on-server-event": false
+                },
+                "response-time-goal": 3000
+            },
+            "advanced": {
+                "compatibility-mode": false,
+                "force-login": true,
+                "think-time-before-interaction": 3,
+                "think-time-between-test": 2,
+                "tolerated-apdex-multiplier": 4
+            },
+            "clients": 1,
+            "disabled": false,
+            "duration": 60,
+            "load-mix": "InteractVizLoadTest",
+            "name": "Validate Dashboard Performance",
+            "tableau-server-password": "9h9oMJ05dVvJlifzl/v8;encrypted",
+            "tableau-server-url": "{{TABLEAU_URL}}",
+            "tableau-server-user": "{{TABLEAU_USER}}",
+            "type": "performance_test",
+            "user-pool": [],
+            "view-pool": [
+                "/site/{{TABLEAU_SITE}}/views/Superstore_16019319141090/SuperstoreAnalysis"
+            ]
+        }
+    ],
+    "type": "performance"
+}
